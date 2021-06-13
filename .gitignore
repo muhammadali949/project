@@ -1,2 +1,26 @@
-node_modules
-mobilezone/node_modules
+/node_modules
+/mobilezone/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/mobilezone/.pnp
+.pnp.js
+
+# testing
+/mobilezone/coverage
+
+# production
+# /build
+
+# misc
+/mobilezone/.DS_Store
+/mobilezone/.env.local
+/mobilezone/.env.development.local
+/mobilezone/.env.test.local
+/mobilezone/.env.production.local
+
+/mobilezone/npm-debug.log*
+/mobilezone/yarn-debug.log*
+/mobilezone/yarn-error.log*
+
