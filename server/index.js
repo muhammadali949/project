@@ -7,7 +7,6 @@ const config = require("./config/key");
 const path = require('path')
 // const {User} = require('./models/user')
 // const { auth }= require('./middleware/auth')
-console.log(path)
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useFindAndModify", false);
 mongoose.set("useCreateIndex", true);
