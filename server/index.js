@@ -33,17 +33,17 @@ app.use("/api/admin", require("./routes/admin"));
 app.use("/uploads", express.static("uploads"));
 
 // Serve static assets if in production
-if (process.env.NODE_ENV === "production") {
-  // Set static folder
-  app.use(express.static("mobilezone/build"));
+// if (process.env.NODE_ENV === "production") {
+//   // Set static folder
+//   app.use(express.static("mobilezone/build"));
 
-  // index.html for all page routes
-  app.get("*", (req, res) => {
-    res.sendFile(
-      path.resolve(__dirname, "../mobilezone", "build", "index.html")
-    );
-  });
-}
+//   // index.html for all page routes
+//   app.get("*", (req, res) => {
+//     res.sendFile(
+//       path.resolve(__dirname, "../mobilezone", "build", "index.html")
+//     );
+//   });
+// }
 
 // app.get("/auth", auth, (req, res) => {
 //   res.status(200).json({
