@@ -1,0 +1,21 @@
+.banner{
+/* border: 2px solid black; */
+padding: 200px;
+background: url(https://9to5mac.com/wp-content/uploads/sites/6/2020/10/iPhone-11-Pro-Max.jpg?quality=82&strip=all);
+background-repeat: no-repeat;
+background-size: 100% 400px;
+z-index: 100;
+}
+h1{
+    color: lightyellow;
+}
+@media screen and (max-width: 960px) {
+    .banner{
+padding: 100px;
+background: url(https://9to5mac.com/wp-content/uploads/sites/6/2020/10/iPhone-11-Pro-Max.jpg?quality=82&strip=all);
+background-repeat: no-repeat;
+background-size: 100% 400px;
+z-index: -1;
+}
+ }
+

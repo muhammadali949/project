@@ -1,0 +1,17 @@
+
+.postpage{
+    width: 75%;
+    margin: 3rem auto;
+}
+.no__post{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.loadmore{
+    display: flex;
+    justify-content: center;
+}
+
+

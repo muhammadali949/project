@@ -1,0 +1,290 @@
+.selectoption{
+    background:	#E8E8E8;
+    height: 135vh;
+    width: 100%;
+    padding-top: 10px;
+}
+.container__selectoption{
+    background: #fff;
+    margin:auto;
+    /* margin-top: 50px; */
+    /* height: 600px; */
+    width: 700px;
+    border-radius:5%;
+    
+
+}
+.container__selectoption >h2{
+font-size: 1.7rem;
+font-weight: bold;
+}
+.sell__detail > h3{
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.container__selectoption > h2{
+    color: rgb(28, 28, 94);
+    padding: 50px;
+    text-align: center;
+
+}
+.input__style{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 6px;
+   cursor: pointer;
+    position: relative;
+    top: 4px;
+}
+.input__style:checked {
+    border: 7px solid rgb(24, 121, 24);
+    outline: unset !important /* I added this one for Edge (chromium) support */
+    
+  }
+.container__selectoption> h1{
+    color: black;
+}
+.sell__mobilezone{
+    display: flex;
+}
+.sell__tryit{
+    display: flex;
+}
+h3{
+    color: #000;
+    margin-bottom: 10px;
+}
+.img_style{
+    object-fit: contain;
+    /* width: 100%; */
+    height: 150px;
+ 
+}
+.sell__mobilezone{
+    padding: 20px;
+    padding-left: 75px;
+}
+.sell__tryit{
+    padding: 0px;
+    padding-left: 75px;
+}
+.style__btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+    margin-top: -20px;
+}
+.style__btn > button{
+    padding: 15px;
+    width: 200px;
+}
+.style__btn > button:hover{
+    padding: 15px;
+    width: 175px;
+}
+
+.line__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or__style{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sell__detailtwo >h3{
+    font-size: 1.2rem;
+font-weight: bold;
+
+}
+
+@media screen and (max-width: 700px){
+    .selectoption{
+        height: 70vh;
+    }
+    .container__selectoption{
+        background: #fff;
+        margin:auto;
+        /* margin-top: 50px; */
+        /* height: 600px; */
+        width: 400px;
+        border-radius:5%;
+    
+    }
+ 
+  }
+  @media screen and (max-width: 1325px){
+    .selectoption{
+        height: 160vh;
+    }
+    .container__selectoption{
+        background: #fff;
+        margin:auto;
+        /* margin-top: 50px; */
+        /* height: 600px; */
+        width: 700px;
+        border-radius:5%;
+        
+    
+    }
+    .container__selectoption >h2{
+        font-size: large;
+        font-weight: bold;
+        }
+        .sell__detail > h3{
+        font-size: 1rem;
+        font-weight: bold;
+        }
+        .sell__detailtwo >h3{
+        font-size: 1rem;
+        font-weight: bold;
+        
+        }
+        
+        .container__selectoption > h2{
+            color: rgb(28, 28, 94);
+            padding: 50px;
+            text-align: center;
+            font-size: 1.2rem;
+        
+        }
+        .input__style{
+            border-radius: 50%;
+            width: 15px;
+            height: 14px;
+          
+           
+        }
+        .a > li{
+            font-size: 1rem;
+        }
+ 
+  }
+
+@media screen and (max-width: 700px){
+    .selectoption{
+        height: 165vh;
+    }
+    .container__selectoption{
+        background: #fff;
+        margin:auto;
+        /* margin-top: 50px; */
+        /* height: 600px; */
+        width: 500px;
+        border-radius:5%;
+        
+    
+    }
+    .container__selectoption >h2{
+        font-size: large;
+        font-weight: bold;
+        }
+        .sell__detail > h3{
+        font-size: 0.8rem;
+        font-weight: bold;
+        }
+        .sell__detailtwo >h3{
+        font-size: 0.8rem;
+        font-weight: bold;
+        
+        }
+        
+        .container__selectoption > h2{
+            color: rgb(28, 28, 94);
+            padding: 50px;
+            text-align: center;
+            font-size: 1rem;
+        
+        }
+        .input__style{
+            border-radius: 50%;
+            width: 15px;
+            height: 14px;
+          
+           
+        }
+        .a > li{
+            font-size: 0.7rem;
+        }
+ 
+  }
+  @media screen and (max-width: 480px){
+    .selectoption{
+        height: 130vh;
+    }
+    .container__selectoption{
+        background: #fff;
+        margin:auto;
+        /* margin-top: 50px; */
+        /* height: 600px; */
+        width: 350px;
+        border-radius:5%;
+        
+    
+    }
+    .container__selectoption >h2{
+        font-size: small;
+        font-weight: bold;
+        }
+        .sell__detail > h3{
+        font-size: 0.5rem;
+        font-weight: bold;
+        }
+        .sell__detailtwo >h3{
+        font-size: 0.5rem;
+        font-weight: bold;
+        
+        }
+        
+        .container__selectoption > h2{
+            color: rgb(28, 28, 94);
+            padding: 50px;
+            text-align: center;
+            font-size: small;
+        
+        }
+        .input__style{
+            border-radius: 50%;
+            width: 15px;
+            height: 14px;
+          
+           
+        }
+        .a > li{
+            font-size: 0.5rem;
+        }
+        .img_style{
+            object-fit: contain;
+            /* width: 100%; */
+            height: 75px;
+         
+        }
+        .style__btn{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 15px;
+            margin-top: -20px;
+        }
+        .style__btn > button{
+            padding: 5px;
+            width: 100px;
+        }
+        hr{
+            display:none;
+        }
+        h1{
+            font-size: small;
+        }
+        
+  }

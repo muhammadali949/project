@@ -1,0 +1,239 @@
+.footer{
+    background: #00001E;
+    /* height: 40vh; */
+    width: 100%;
+    top: 0;
+    color: #ffff;
+    /* display: flex; */
+}
+.footer__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+}
+.footer__logo{
+    text-decoration: none;
+}
+.contact__info{
+    display: flex;
+}
+.left{
+    margin-top: -30px;
+}
+.middle > h2{
+    color: #ffff;
+    font-size: xx-large;
+}
+
+.right > h2{
+    color: #ffff;
+    font-size: xx-large;
+  
+} 
+.about > p{
+    padding-top: 0px;
+}
+.middle{
+    margin-top: -80px;
+}
+.middle > div{
+    padding-top: 0px;
+}
+.contact__info > p{
+    margin-left: 5px;
+}
+.right{
+    margin-top: -100px;
+}
+.right > div{
+    padding-top: 10px;
+
+}
+.footer__links{
+    text-decoration: none;
+    color: #ffff;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: 	rgb(0,0,0);
+    padding: 0px;
+}
+.bottom__right > h3{
+    color: #fff;
+    margin-top: -10px;
+}
+.bottom__left{
+    display: flex;
+}
+.botton__icons{
+    margin-left: 20px;
+}
+.bottom__right > p{
+    font-weight: -10px;
+
+}
+.botton__icons > a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+@media screen and (max-width: 580px) {
+    
+    .footer{
+     width: auto;
+     /* height: 40vh; */
+    }
+    .footer__container{
+        width: 100%;
+       }
+
+       .footer__container{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px;
+    }
+    .footer__logo > h1{
+        font-size: small;
+    }
+    .about > p{
+        font-size: x-small;
+    }
+    .middle > h2{
+    
+        font-size: small;
+    }
+    .contact__info>p{
+        font-size: x-small;
+    }
+    .middle{
+        margin-left: 50px;
+        margin-top: -110px;
+    }
+    .right>h2{
+        font-size: small;
+    }
+    .right{
+        /* margin-top: 100px; */
+        margin-left: 40px;
+    }
+    .footer__links{
+        font-size: x-small;
+    }
+    .about{
+        padding: 0;
+    }
+    .bottom__right>p{
+        font-size: x-small;
+    }
+ 
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 780px){
+    
+    .footer{
+     width: auto;
+     /* height: 40vh; */
+    }
+    .footer__container{
+        width: 100%;
+       }
+
+       .footer__container{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px;
+    }
+    .footer__logo > h1{
+        font-size: large;
+    }
+    .about > p{
+        font-size: small;
+    }
+    .middle > h2{
+    
+        font-size: large;
+    }
+    .contact__info>p{
+        font-size: small;
+    }
+    .middle{
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+    .right>h2{
+        font-size: large;
+    }
+    .right{
+        /* margin-top: 100px; */
+        margin-left: 40px;
+    }
+    .footer__links{
+        font-size: small;
+    }
+    .about{
+        padding: 0;
+    }
+    .bottom__right>p{
+        font-size: small;
+    }
+ 
+  }
+  @media screen and (min-width: 780px) and (max-width: 1000px){
+    
+    .footer{
+     width: auto;
+     /* height: 40vh; */
+    }
+    .footer__container{
+        width: 100%;
+       }
+
+       .footer__container{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px;
+    }
+    .footer__logo > h1{
+        font-size: large;
+    }
+    .about > p{
+        font-size: small;
+    }
+    .middle > h2{
+    
+        font-size: large;
+    }
+    .contact__info>p{
+        font-size: small;
+    }
+    .middle{
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+    .right>h2{
+        font-size: large;
+    }
+    .right{
+        /* margin-top: 1px; */
+        margin-left: 40px;
+    }
+    .footer__links{
+        font-size: small;
+    }
+    .about{
+        padding: 0;
+    }
+    .bottom__right>p{
+        font-size: small;
+    }
+ 
+  }

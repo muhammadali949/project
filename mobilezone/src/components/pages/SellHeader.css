@@ -1,0 +1,75 @@
+.header{
+    background: #fff;
+    padding: 5px;
+}
+.footer__logo>h1{
+    margin-right: 1rem;
+}
+.sell__info{
+    margin-top: -15px;
+}
+.sell__info > p{
+    margin-top: 6px;
+
+}
+.ad__steps{
+    margin-top: 15px;
+    padding: 10px;
+}
+.ad__step{
+    padding: 10px;
+}
+.sell__info > h2 {
+    color: rgb(17, 17, 88);
+    font-size: 25px; 
+    font-weight: bold;
+}
+.sell__main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ui__icons{
+    color:  rgb(53, 129, 228);
+    margin-right: 10px;
+    margin-top: -5px;
+    font-Size: large;
+}
+.ad__steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ad__step{
+    display: flex;
+}
+hr.style-tw {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right,	rgb(220,220,220),	rgb(220,220,220), 
+    rgb(220,220,220));
+}
+@media screen and (max-width: 762px){
+    p{
+        font-size: small;
+    }
+    .ui__icons{
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width: 612px){
+    p{
+        font-size: x-small;
+    }
+    
+
+}
+@media screen and (max-width: 480px){
+    p{
+        font-size: 10px;
+    }
+    
+
+}

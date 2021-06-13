@@ -1,0 +1,22 @@
+.signin{
+    display: grid;
+    background:	#E8E8E8;
+    /* display: grid; */
+    /* height: 110vh; */
+    width: 100%;
+}
+.signin__container{
+    background: #fff;
+    color: #000000;
+    /* width: 700px; */
+    margin: auto;
+    /* margin-top: 20px; */
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.signin__div{
+    margin-top: 20px;
+}

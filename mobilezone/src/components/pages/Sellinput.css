@@ -1,0 +1,336 @@
+.sellinput {
+  background: #e8e8e8;
+  display: grid;
+  /* height: 265vh; */
+  width: 100%;
+  /* position: fixed; */
+}
+
+.sellinput__container {
+  margin-top: 20px;
+}
+
+.sellinput__container2 {
+  background: #fff;
+  color: #000000;
+  /* width: 700px; */
+  margin: auto;
+  margin-top: 0px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sellinput__container2 > h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.upload__photo > h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.personal__info > h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.sellinput__container2 > h4 {
+  margin-top: 10px;
+}
+.sellinput__container2:hover {
+  box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+}
+
+.select {
+  width: 500px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  z-index: 100000000;
+  /* border:1px solid  #000000; */
+}
+
+.condition {
+  margin-left: 31px;
+}
+.mobile__select {
+  /* display: flex; */
+  padding: 30px;
+}
+.option__one {
+  /* padding: 10px; */
+  margin-right: 15px;
+}
+.condition__container {
+  display: flex;
+  margin-top: 10px;
+}
+.option__one {
+  display: flex;
+}
+.option__one > p {
+  margin-right: 8px;
+  margin-top: 2px;
+}
+.option__two {
+  display: flex;
+}
+.option__two > p {
+  margin-right: 8px;
+  margin-top: 3px;
+}
+.input__btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 6px;
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+}
+.input__btn:checked {
+  border: 11px solid rgb(53, 129, 228);
+  outline: unset !important; /* I added this one for Edge (chromium) support */
+}
+.rs__logo {
+  background: #d8d8d8;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  margin-left: 31px;
+  margin-top: 31px;
+}
+.title > h4 {
+  margin-bottom: 13px;
+}
+.field__style {
+  width: 500px;
+}
+.inputfield__style {
+  background-color: transparent;
+  width: 500px;
+  height: 50px;
+  border: 1px solid rgb(221, 218, 218);
+  border-radius: 5px;
+  cursor: text;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+.inputfield__style:hover {
+  border: 1px solid rgb(156, 155, 155);
+}
+.inputfield__style {
+  outline: rgb(238, 230, 230);
+  border-radius: 5px;
+}
+
+.inputfield__style:focus {
+  outline: 2px solid rgb(28, 160, 212);
+  border: 1px solid #fff;
+}
+.inputfieldd__style {
+  background-color: transparent;
+  width: 500px;
+  height: 100px;
+  border: 1px solid rgb(221, 218, 218);
+  border-radius: 5px;
+  cursor: text;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.inputfieldd__style:hover {
+  border: 1px solid rgb(156, 155, 155);
+}
+.inputfieldd__style {
+  outline: rgb(238, 230, 230);
+  border-radius: 5px;
+}
+
+.inputfieldd__style:focus {
+  outline: 2px solid rgb(28, 160, 212);
+  border: 1px solid #fff;
+}
+
+.description {
+  margin-left: 31px;
+  margin-top: 31px;
+}
+.description > h4 {
+  margin-bottom: 13px;
+}
+.price {
+  /* display: flex; */
+  /* margin-top: 1px; */
+  margin-left: 31px;
+}
+.price > h4 {
+  margin-bottom: 15px;
+}
+.upload__photo {
+  background: #fff;
+  color: #000000;
+  /* width: 700px; */
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.upload__photo:hover {
+  box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+}
+.upload__photo > h2 {
+  margin: 0;
+}
+
+/* .border__style{
+    border: 1px solid #000;
+    height: 400px;
+} */
+.post__pictures {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* .custom-file-input{
+    border: none;
+} */
+.personal__info {
+  background: #fff;
+  color: #000000;
+  /* width: 700px; */
+  margin: auto;
+  margin-top: 20px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.personal__info:hover {
+  box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: -2px -1px 12px -2px rgba(0, 0, 0, 0.56);
+}
+.personal__info > h2 {
+  margin: 0;
+}
+.personal__info > input {
+  margin-left: 23px;
+}
+.personal__info > h4 {
+  margin-left: 23px;
+  margin-top: 20px;
+}
+.btn__div {
+  /* margin-top: -100px; */
+  margin-left: 200px;
+}
+.btn__two {
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 1325px) {
+  .sellinput__container2 > h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .upload__photo > h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .personal__info > h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 760px) {
+  .inputfield__style {
+    width: 300px;
+  }
+  .select {
+    width: 300px;
+  }
+  .inputfieldd__style {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 500px) {
+    .sellinput__container2 > h2 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+      }
+      .upload__photo > h2 {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .personal__info > h2 {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+  .sellinput__container2 {
+    width: 60%;
+  }
+  .upload__photo {
+    width: 60%;
+  }
+  .personal__info {
+    width: 60%;
+  }
+  .inputfield__style {
+    width: 200px;
+  }
+  .select {
+    width: 200px;
+  }
+  .inputfieldd__style {
+    width: 200px;
+  }
+  .sellinput__container2>h4{
+      font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 480px) {
+    .sellinput__container2 > h2 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+      }
+      .upload__photo > h2 {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .personal__info > h2 {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+  .inputfield__style {
+    width: 160px;
+  }
+  .select {
+    width: 160px;
+  }
+  .inputfieldd__style {
+    width: 160px;
+  }
+}

@@ -1,0 +1,32 @@
+.videoo{
+    display: flex;
+    padding: 50px;
+}
+.video__container{
+    width: 700px;
+}
+.list{
+    width: 500px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 960px) {
+    .videoo{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 770px) {
+    .video__container{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .video__container{
+        width: 400px;
+    }
+    .video__container >h1{
+        font-size: 20px;
+    }
+    .list{
+        width: 300px;
+    }
+}
