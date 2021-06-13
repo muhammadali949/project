@@ -59,7 +59,7 @@ function FileUpload(props) {
             {Images.map((image, index) => (
                     <div onClick={() => onDelete(image)}>
                     <CloseIcon style={{cursor:'pointer'}}/>
-                        <img  className='images__tag' src={`http://localhost:5000/${image}`} alt={`productImg-${index}`} />
+                        <img  className='images__tag' src={`/${image}`} alt={`productImg-${index}`} />
                     </div>
                 ))}
             </div>
