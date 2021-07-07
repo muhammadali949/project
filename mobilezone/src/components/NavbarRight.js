@@ -38,7 +38,7 @@ function NavbarRight({ closeMobileMenu }) {
   return (
     <>
       <li className="nav-item">
-        <NavLink to="/signin"  exact activeStyle={{ color:'#fff'}}   className="nav-links" onClick={closeMobileMenu}>
+        <NavLink to="/signin"  exact activeStyle={{ color:'#0080FF'}}   className="nav-links" onClick={closeMobileMenu}>
           <span>Signin</span>
         </NavLink>
       </li>
