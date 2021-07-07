@@ -9,6 +9,7 @@
     /* position: fixed; */
     transition: 0.6s;
   }
+ 
   
   .navbar-logo {
     color: #fff;
@@ -51,7 +52,7 @@
   
   /* .nav-links:hover {
     background-color: #1888ff;
-    border-radius: 4px;
+    border-radius: 1px;
     transition: all 0.2s ease-out;
   } */
   
@@ -157,3 +158,4 @@
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
   }
+ 

@@ -30,3 +30,25 @@
         width: 300px;
     }
 }
+@media screen and (max-width: 500px) {
+    .video__container{
+        width: 300px;
+    }
+    .video__container >h1{
+        font-size: 15px;
+    }
+    .list{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .video__container{
+        width: 200px;
+    }
+    .video__container >h1{
+        font-size: 5px;
+    }
+    .list{
+        width: 200px;
+    }
+}

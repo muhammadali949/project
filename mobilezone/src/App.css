@@ -17,6 +17,9 @@ a:hover{
   color: #fff;
 
 }
+a:active{
+  color: blueviolet;
+}
 li{
   font-size: large;
 }

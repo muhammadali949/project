@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import axios from 'axios';
 import {USER_SERVER} from '../config'
 
@@ -18,13 +18,14 @@ function NavbarAdmin({ closeMobileMenu }) {
   if (login && login.role) {
   return (
     <li className="nav-item">
-              <Link
+              <NavLink
                 to="/admin"
                 className="nav-links"
+              activeStyle={{ color:'#0080FF'}}
                 onClick={closeMobileMenu}
               >
                 <span>UserRequest</span>
-              </Link>
+              </NavLink>
             </li>
   );
   }else{

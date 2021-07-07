@@ -22,6 +22,18 @@ function SelectOption() {
 
     // }
     console.log(formData.pagelink)
+
+   const srcError =e=>{
+     e.target.src='https://lh3.googleusercontent.com/proxy/_v98_jQa07W4MI_MzbNpcKIbIOawqx7R0bJ2Z6BQDQp672AB-gSiGafg1oy2gQPS0EN1kTMvO0O1YNVbR_9MaWgxSKI3S-H1Ks7ph3BKoQG7EacPmEGSFZDC5ifwJWnKvdoE58JN'
+   }
+
+
+
+
+
+
+
+
   return (
       <form action='submit'>
     <div className="selectoption">
@@ -53,7 +65,7 @@ function SelectOption() {
             </ul>
           </div>
           <div className='img'>
-              <img className='img_style' src="http://www.pngall.com/wp-content/uploads/1/Mobile-PNG-Transparent-HD-Photo.png" alt="Mobile__img"/>
+              <img className='img_style' src="http://www.pngall.com/wp-content/uploads/1/Mobile-PNG-Transparent-HD-Photo.png" onError={srcError}/>
           </div>
         </div>
         <div className="line__style">

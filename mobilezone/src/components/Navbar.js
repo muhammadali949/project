@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import NavbarRight from "./NavbarRight";
 import NavbarAdmin from './NavbarAdmin'
 import "./Navbar.css";
@@ -31,33 +31,33 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
           MobileZone
-        </Link>
+        </NavLink>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Home
-            </Link>
+            <NavLink to="/" className="nav-links" exact  activeStyle={{ color:'#0080FF'}}   onClick={closeMobileMenu}>
+              Home 
+            </NavLink>
           </li>
           <li
             className="nav-item"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link className="nav-links" onClick={closeMobileMenu}>
-              Services{" "}
+            <NavLink className="nav-links"  onClick={closeMobileMenu} to=''>
+              Services
               <i style={{ color: "#fff" }} className="fas fa-caret-down" />
-            </Link>
+            </NavLink>
             {dropdown && <Dropdown />}
           </li>
           <li className="nav-item">
-            <Link to="/videos" className="nav-links" onClick={closeMobileMenu}>
+            <NavLink to="/videos"  exact  activeStyle={{ color:'#0080FF'}}  className="nav-links" onClick={closeMobileMenu}>
               Videos
-            </Link>
+            </NavLink>
           </li>
 
           <NavbarRight closeMobileMenu={closeMobileMenu} />
@@ -87,7 +87,7 @@ function Navbar() {
                 
             <NavbarAdmin closeMobileMenu={closeMobileMenu}/>
 <li>
-            <Link
+            <NavLink
             onClick={closeMobileMenu}
               to="/selectoption"
               className="nav-links-mobile"
@@ -95,7 +95,7 @@ function Navbar() {
               aria-haspopup="true"
             >
               Post an Ad
-            </Link>
+            </NavLink>
           </li>
         </ul>
 

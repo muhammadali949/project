@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import axios from 'axios';
 import {USER_SERVER} from '../config'
 import { logoutUser } from "../actions/user_actions";
@@ -30,22 +30,22 @@ function NavbarRight({ closeMobileMenu }) {
         .then(response => {
           setLogin(response.data)
         });
-       
+       console.log("login")
     
-  }, [login])
+  }, [])
 
   if (login && !login.isAuth) {
   return (
     <>
       <li className="nav-item">
-        <Link to="/signin" className="nav-links" onClick={closeMobileMenu}>
+        <NavLink to="/signin"  exact activeStyle={{ color:'#0080FF'}}   className="nav-links" onClick={closeMobileMenu}>
           <span>Signin</span>
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <Link to="/signup" className="nav-links" onClick={closeMobileMenu}>
+        <NavLink to="/signup"  exact  activeStyle={{ color:'#0080FF'}}  className="nav-links" onClick={closeMobileMenu}>
           <span>Signup</span>
-        </Link>
+        </NavLink>
       </li>
 
       
@@ -54,9 +54,9 @@ function NavbarRight({ closeMobileMenu }) {
   }else{
     return(
       <li className="nav-item">
-        <Link className="nav-links" onClick={logoutHandler}>
+        <NavLink className="nav-links"  to='' onClick={logoutHandler}>
           <span>Logout</span>
-        </Link>
+        </NavLink>
       </li>
     )
   }
