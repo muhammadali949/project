@@ -32,7 +32,7 @@ function NavbarRight({ closeMobileMenu }) {
         });
        console.log("login")
     
-  }, [])
+  }, [login])
 
   if (login && !login.isAuth) {
   return (

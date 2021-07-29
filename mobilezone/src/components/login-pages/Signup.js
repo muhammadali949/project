@@ -29,14 +29,26 @@ class Signup extends Component {
           }else if(!this.isPasswordValid(this.state)){
             error ={message:'Password is invalid'};
             this.setState({errors:errors.concat(error)})
-          }else{
+          }
+          else if(typeof this.state.email !== "undefined"){
+            let lastAtPos = this.state.email.lastIndexOf('@');
+            let lastDotPos = this.state.email.lastIndexOf('.');
+  
+            if (!(lastAtPos < lastDotPos && lastAtPos > 0 && this.state.email.indexOf('@@') == -1 && lastDotPos > 2 && (this.state.email.length - lastDotPos) > 2)) {
+            
+              alert("Email is not valid");
+             }else{
+               return true;
+             }
+        }
+          else{
             return true;
           }
 
 
       }
       isPasswordValid =({password,passwordconfirmation})=>{
-        if(password.length<0 || passwordconfirmation.length < 0){
+        if(password.length<6 || passwordconfirmation.length < 6){
           return false;
         }else if(password!==passwordconfirmation){
           return false;
@@ -57,6 +69,7 @@ class Signup extends Component {
         )
 
       }
+      
       submitForm=event =>{
         event.preventDefault();
 
@@ -67,14 +80,14 @@ class Signup extends Component {
           password:this.state.password,
           passwordconfirmation:this.state.passwordconfirmation
         }
-
+     
         if(this.isFormValid()){
           this.setState({errors:[]})
           this.props.dispatch(registerUser(dataToSubmit))
           .then(response=>{
             console.log(response)
             if(response.payload.success){
-              alert('your are Successfully SignUp ')
+              alert('you are Successfully SignUp ')
               this.setState({
                 name:'',
                 lastname:'',
@@ -100,10 +113,11 @@ class Signup extends Component {
             })
           })
         }else{
-          alert('Fill all the field corractly form is not valid')
+          alert('Fill all the field corractly form is not valid password greater than 6 words')
         }
 
       }
+    
     render() {
         return (
             <div className="signin">
