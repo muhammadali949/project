@@ -18,7 +18,8 @@ function NavbarRight({ closeMobileMenu }) {
     dispatch(logoutUser()).then(async (response) => {
       if (response.payload.success) {
         alert("logout successfully");
-        history.push('/signin')
+        window.location.reload(false);
+  
       } else {
         alert("error");
       }
@@ -32,7 +33,7 @@ function NavbarRight({ closeMobileMenu }) {
         });
        console.log("login")
     
-  }, [login])
+  }, [])
 
   if (login && !login.isAuth) {
   return (

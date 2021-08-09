@@ -13,7 +13,7 @@ function NavbarAdmin({ closeMobileMenu }) {
           setLogin(response.data)
         });
         
-  }, [login])
+  }, [])
 
   if (login && login.role) {
   return (

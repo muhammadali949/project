@@ -34,6 +34,7 @@ class Signin extends Component {
 
         if(response.payload.loginSuccess){
           alert('successfully login')
+          window.location.reload(false);
          this.setState({
           email:'',
           password:'',
